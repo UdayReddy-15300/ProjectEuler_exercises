@@ -1,0 +1,10 @@
+a,b=1,2
+temp=0
+sum=2
+while temp<4000000:
+    if temp%2==0:
+        sum=sum+temp
+    temp=a+b
+    a=b
+    b=temp
+print(sum)
